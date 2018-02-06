@@ -29,6 +29,9 @@ body {
     body nav a {
       font-size: .9em;
       transition: all .2s; }
+    body nav .logo-container img {
+      width: 150px;
+      height: 150px; }
   body div.section {
     padding: 200px 0px 200px 0px;
     box-sizing: border-box; }
@@ -38,13 +41,18 @@ body {
     min-height: 200px;
     background-image: url("../images/slide-1.jpg"); }
     body header .title {
+      margin: 0 auto;
       position: relative;
-      background-color: gray;
-      top: -95px;
-      font-size: 400%;
+      width: 500px;
+      font-size: 150%;
       height: 100px; }
       body header .title p {
-        text-shadow: 3px 3px black; }
+        text-shadow: 3px 3px black;
+        top: -85px; }
+      body header .title img {
+        display: block;
+        width: 150px;
+        height: 150px; }
     body header .carousel {
       height: 50%; }
     body header .begin {
