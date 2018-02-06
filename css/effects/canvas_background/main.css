@@ -1,0 +1,58 @@
+html,
+body {
+    margin: 0;
+    overflow: hidden;
+    height: 100%
+}
+
+img {
+    width: 100%;
+    max-width: 250px;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    margin: 0 auto
+}
+
+.large-header {
+    /* background: linear-gradient(to bottom, #0a1535 0%, #103566 37%, #163a75 61%, #0c528e 100%); */
+    background-color: steelblue;
+    /* background-image: url("https://loremflickr.com/1920/1080"); */
+    text-align: center
+}
+
+#x-canvas {
+    opacity: 0.5
+}
+
+
+/* follow me @nodws */
+
+#btn-twtr {
+    clear: both;
+    color: #fff;
+    border: 2px solid;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-family: sans-serif;
+    font-size: 14px;
+    width: 13em;
+    padding: 5px 10px;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 90vh auto;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0px 3px rgba(0, 0, 0, 0.2);
+    opacity: 0.3
+}
+
+#btn-twtr:hover {
+    color: #fff;
+    opacity: 1
+}

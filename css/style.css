@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  position: absolute;
+  width: 100%;
+  height: 500%;
+  background-color: transparent;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300 !important;
+  font-size: 1.3em !important; }
+  body a:focus {
+    outline-width: 1px;
+    outline-color: rgba(73, 97, 191, 0.546);
+    outline-style: dotted;
+    text-decoration: none; }
+  body #result {
+    position: fixed;
+    width: 200px;
+    height: 50px;
+    font-size: 19px;
+    color: white; }
+  body nav {
+    position: fixed;
+    overflow: hidden;
+    top: -100px;
+    z-index: 5000;
+    transition: top .5s linear; }
+    body nav:hover {
+      opacity: 1; }
+    body nav a {
+      font-size: .9em;
+      transition: all .2s; }
+  body div.section {
+    padding: 200px 0px 200px 0px;
+    box-sizing: border-box; }
+  body header {
+    position: relative;
+    height: 20%;
+    min-height: 200px;
+    background-image: url("../images/slide-1.jpg"); }
+    body header .title {
+      position: relative;
+      background-color: gray;
+      top: -95px;
+      font-size: 400%;
+      height: 100px; }
+      body header .title p {
+        text-shadow: 3px 3px black; }
+    body header .carousel {
+      height: 50%; }
+    body header .begin {
+      top: 50px; }
+    body header .row {
+      position: absolute;
+      top: 50%;
+      left: 40%;
+      height: 30%;
+      width: 70%;
+      margin: -15% 0 0 -25%; }
+    body header .top-slider {
+      position: relative;
+      top: 10% !important;
+      height: 70%;
+      opacity: .7;
+      transition: opacity .2s ease-in-out; }
+      body header .top-slider:hover {
+        opacity: .9; }
+  body .content {
+    height: 20%;
+    overflow: hidden;
+    font-weight: 300; }
+
+section {
+  padding-top: 100px !important; }
+  section ::selection {
+    color: transparent;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.698); }
+
+#s2 {
+  background-image: url("../images/1380741056_krasivye-oboi-10.jpg"); }
+
+#s4 {
+  background-image: url("../images/entry-image1.jpg"); }
+
+.fixed {
+  position: fixed;
+  top: 0; }

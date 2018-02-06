@@ -1,0 +1,37 @@
+/* line 1, /home/shchukinei/www/mysite1.local/content/themes/default/sass/style.scss */
+body {
+  position: absolute;
+  width: 100%;
+  height: 500%;
+  background-color: #C9F6FF; }
+  /* line 6, /home/shchukinei/www/mysite1.local/content/themes/default/sass/style.scss */
+  body a {
+    outline: none; }
+  /* line 9, /home/shchukinei/www/mysite1.local/content/themes/default/sass/style.scss */
+  body header {
+    height: 20%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url("/content/themes/default/img/material-wallpaper-8.png");
+    background-size: cover;
+    background-attachment: fixed; }
+    /* line 16, /home/shchukinei/www/mysite1.local/content/themes/default/sass/style.scss */
+    body header nav {
+      position: fixed;
+      top: 0;
+      z-index: 5000;
+      transition: all .2s; }
+      /* line 21, /home/shchukinei/www/mysite1.local/content/themes/default/sass/style.scss */
+      body header nav a {
+        transition: all .2s; }
+    /* line 25, /home/shchukinei/www/mysite1.local/content/themes/default/sass/style.scss */
+    body header .top-slider {
+      margin-top: 1%;
+      height: 70%;
+      opacity: .75; }
+  /* line 31, /home/shchukinei/www/mysite1.local/content/themes/default/sass/style.scss */
+  body .content {
+    height: 20%;
+    overflow: hidden; }
+
+/*# sourceMappingURL=style.css.map */
